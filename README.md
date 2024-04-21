@@ -1,6 +1,8 @@
 # Toward Optimal Tabletop Rearrangement with Multiple Manipulation Primitives
 
-*[Baichuan Huang](https://baichuan05.github.io/), Xujia Zhang, [Jingjin Yu](https://arc-l.github.io/)*
+*[Baichuan Huang](https://baichuan05.github.io/), Xujia Zhang, [Jingjin Yu](https://arc-l.github.io/)* 
+
+https://arxiv.org/abs/2310.00167 (ICRA 2024)
 
 ### 3 minutues intro video:
 https://github.com/arc-l/remp/assets/20850928/854b0654-f8e0-4ae3-837d-8b16d8b6522f
