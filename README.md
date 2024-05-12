@@ -15,6 +15,7 @@ https://github.com/arc-l/remp/assets/20850928/854b0654-f8e0-4ae3-837d-8b16d8b652
     cd remp
     docker pull arcldocker/remp:latest
     bash run_container.sh
+    mkdir logs
     ```
 
 * Manually install (Ubuntu)<br>
