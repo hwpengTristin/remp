@@ -24,6 +24,7 @@ https://github.com/arc-l/remp/assets/20850928/854b0654-f8e0-4ae3-837d-8b16d8b652
 ## Quick Start
 * Case by case run:
   * `python environment.py --method mcts --case real_case_6_1 --gui`
+  *  sudo -E env "PATH=$PATH" python environment.py --method mcts --case real_case_6_1 --gui    #(Manually install (Ubuntu)<br>)
 * Benchmark:
   * `bash benchmark.sh`
 
