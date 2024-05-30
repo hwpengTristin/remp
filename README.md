@@ -29,6 +29,7 @@ https://github.com/arc-l/remp/assets/20850928/854b0654-f8e0-4ae3-837d-8b16d8b652
   * `bash benchmark.sh`
 * ROS Message
   * source /opt/ros/galactic/setup.bash
+  * python environment.py --method mcts --case real_case_6_1 --gui
 
 
 ## Test cases
