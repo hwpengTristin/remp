@@ -18,4 +18,4 @@ cmake --fresh -DCMAKE_INSTALL_PREFIX=/root/ompl-1.6.0 \
 # cmake -DCMAKE_INSTALL_PREFIX=/root/ompl-1.6.0 -DPYTHON_EXEC=/root/miniforge3/envs/drag/bin/python -DCMAKE_PREFIX_PATH=$CONDA_PREFIX ../..
 make -j 16 update_bindings
 make -j 16
-make install
+sudo make install
