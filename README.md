@@ -27,6 +27,9 @@ https://github.com/arc-l/remp/assets/20850928/854b0654-f8e0-4ae3-837d-8b16d8b652
   *  sudo -E env "PATH=$PATH" python environment.py --method mcts --case real_case_6_1 --gui    #(Manually install)
 * Benchmark:
   * `bash benchmark.sh`
+* ROS Message
+  * source /opt/ros/galactic/setup.bash
+
 
 ## Test cases
 All cases are stored in `sim_tests`.
