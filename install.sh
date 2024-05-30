@@ -7,6 +7,7 @@ pip install pygccxml==2.2.1 castxml==0.4.5 pyplusplus==1.8.5 pybullet==3.2.5 ope
 
 conda install spot
 git clone https://github.com/ompl/ompl.git
+cd ompl
 git fetch origin 21213304bfe7eda5dac5cae6ce1dded45490f2de
 git checkout 21213304bfe7eda5dac5cae6ce1dded45490f2de
 
