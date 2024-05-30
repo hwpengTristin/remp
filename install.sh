@@ -10,11 +10,8 @@ cd ompl-1.6.0
 mkdir -p build/Release
 cd build/Release
 # replace path
-cmake --fresh -DCMAKE_INSTALL_PREFIX=/root/ompl-1.6.0 \
-             -DPYTHON_EXECUTABLE=$PYTHON_EXECUTABLE \
-             -DPYTHON_INCLUDE_DIR=$PYTHON_INCLUDE_DIR \
-             -DPYTHON_LIBRARY=$PYTHON_LIBRARY \
-             ../..
+cmake --fresh -DCMAKE_INSTALL_PREFIX=$HOME/remp_ros/ompl-1.6.0 -DPYTHON_EXECUTABLE=/home/hwpeng/.conda/envs/drag310/bin/python -DPYTHON_INCLUDE_DIR=/home/hwpeng/.conda/envs/drag310/include/python3.10 -DPYTHON_LIBRARY=/home/hwpeng/.conda/envs/drag310/lib/python3.10/site-packages/../libpython3.10.so ../..
+
 # cmake -DCMAKE_INSTALL_PREFIX=/root/ompl-1.6.0 -DPYTHON_EXEC=/root/miniforge3/envs/drag/bin/python -DCMAKE_PREFIX_PATH=$CONDA_PREFIX ../..
 make -j 16 update_bindings
 make -j 16
