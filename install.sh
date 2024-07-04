@@ -56,4 +56,16 @@ make -j 16 update_bindings
 make -j 16
 sudo make install
 
+# 报错 1  
+#File "/home/hwpeng/remp_ros38/mcts/search.py", line 853, in MCTS
+# def _select_and_expand(self) -> tuple[Node, bool]:
+# TypeError: 'type' object is not subscriptable
+nano /home/hwpeng/remp_ros38/mcts/search.py
+#python文件开头加入
+from typing import Tuple as tuple
+
+#报错 2
+#FileNotFoundError: [Errno 2] No such file or directory: 'logs/temp-0.obj'
+remp_ros38目录下，添加文件夹/remp_ros38/logs
+
 '''
